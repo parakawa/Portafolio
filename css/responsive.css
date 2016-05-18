@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+    presentacion h1 {
+        font-size: 21px;
+    }
+}

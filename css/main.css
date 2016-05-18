@@ -1,0 +1,104 @@
+body{
+	color: black;
+	font-family: 'Lato',sans-serif;
+}
+.presentacion h1{
+	font-size: 72px;
+}
+
+.presentacion h2{
+	font-size: 42px;
+}
+.presentacion h1,h2{
+	padding:7px 35px 0 35px;
+	text-transform: none;
+	color: white;
+}
+
+.presentacion hr{
+  border-top: 1px solid #eeeeee;
+  width: 20%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.top-bar-section ul li>a {
+  text-transform: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+.mt-84{
+	margin: 84px 0 0 0;
+}
+
+.description h3{
+	color: black;
+	padding: 0;
+}
+
+.description p{
+	font-size: 16px;
+}
+
+.description{
+	padding-top: 54px;
+	text-align: justify;
+}
+
+h3,h4,h5,h6{
+	text-transform: none;
+	color: black;
+}
+
+.title{
+	font-size: 35px;
+	text-align: center;
+	color: #303333;;
+	text-transform: uppercase;
+	padding: 21px 0;
+}
+
+#portafolio{
+	background-color: #F7F7F7;
+	padding: 21px 0 42px 0;
+}
+
+#me{
+	padding: 0 0 42px 0;
+}
+.pt-30{
+	padding-top: 30px;
+}
+
+.item{
+	background-color: white;
+    margin: 4% 0%;
+}
+
+.item h4 {
+  font-family: sans-serif;
+  margin: 6px 0 5px 0;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+#portafolio img{
+	width: 100%;
+}
+
+.laboratoria{
+	color: #FED136;
+}
+
+footer{
+	background-color: black;
+	padding: 21px 0;
+	color: white;
+}
+
+footer p{
+	font-size: 16px;
+}
