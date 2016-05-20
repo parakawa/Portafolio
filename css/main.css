@@ -26,8 +26,10 @@ body{
   text-transform: none;
 }
 
-img{
+.foto img{
 	max-width: 100%;
+	border: 2px solid #F3583A;
+	padding: 7px;
 }
 
 .mt-84{
@@ -89,12 +91,34 @@ h3,h4,h5,h6{
 	width: 100%;
 }
 
-.laboratoria{
-	color: #FED136;
+.ih-item.square.effect9.colored .info .info-back {
+  background: white;
+}
+
+.ih-item.square.effect9 .info h3 {
+  color: white;
+}
+
+.ih-item.square.effect9.colored .info h3 {
+  background: #F7B617;
+}
+
+.fa {
+	font-size: 50px;
+	display: inline;
+}
+
+i a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
 }
 
 footer{
 	background-color: black;
+	margin-top: 30px;
 	padding: 21px 0;
 	color: white;
 }
@@ -102,3 +126,5 @@ footer{
 footer p{
 	font-size: 16px;
 }
+
+
