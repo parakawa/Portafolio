@@ -65,7 +65,7 @@ h3,h4,h5,h6{
 
 #portafolio{
 	background-color: #F7F7F7;
-	padding: 21px 0 42px 0;
+	
 }
 
 #me{
@@ -108,10 +108,13 @@ h3,h4,h5,h6{
 	display: inline;
 }
 
-i a{
+#contacto a{
 	text-decoration: none;
 }
 
+#contacto a:hover{
+	color: black;
+}
 ul{
 	list-style-type: none;
 }
@@ -127,4 +130,28 @@ footer p{
 	font-size: 16px;
 }
 
+#portafolio{
+	padding: 5%;
+}
+
+#contacto{
+	padding: 5%;
+}
+
+#me{
+	padding: 5%;
+}
+
+#portafolio .col-sm-4{
+	padding: 2%;
+}
+
+.no-smoothState{
+	width: 84px;
+} 
+#creativitylogic{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
