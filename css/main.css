@@ -2,19 +2,24 @@ body{
 	color: black;
 	font-family: 'Lato',sans-serif;
 }
+
+
 .presentacion h1{
-	font-size: 72px;
+	font-size: 65px;
 }
 
 .presentacion h2{
-	font-size: 42px;
+	font-size:35px;
 }
+
 .presentacion h1,h2{
 	padding:7px 35px 0 35px;
 	text-transform: none;
 	color: white;
 }
-
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Michroma', sans-serif;
+}
 .presentacion hr{
   border-top: 1px solid #eeeeee;
   width: 20%;
@@ -56,7 +61,7 @@ h3,h4,h5,h6{
 }
 
 .title{
-	font-size: 35px;
+	font-size: 28px;
 	text-align: center;
 	color: #303333;;
 	text-transform: uppercase;
@@ -155,3 +160,27 @@ footer p{
    justify-content: center;
 }
 
+.btn-success{
+	background-color:#EE6E73;
+	border-color: #EE6E73;
+	font-family: 'Michroma', sans-serif;
+}
+
+.btn-success:hover{
+	background-color:#F7B617;
+	border-color: #F7B617
+}
+
+@media screen and (max-width: 448px) {
+   .presentacion h1{
+	font-size: 28px;
+		}
+
+	.presentacion h2{
+	font-size:21px;
+	}
+
+	.title{
+		font-size: 21px;
+	}
+}
