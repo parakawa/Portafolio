@@ -184,3 +184,8 @@ footer p{
 		font-size: 21px;
 	}
 }
+
+.ih-item.square.colored.effect9.top_to_bottom p{
+	font-size: 16px;
+	color: black;
+}
