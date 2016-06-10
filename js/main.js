@@ -13,3 +13,10 @@ $(function() {
     }
   });
 });
+
+$(window).resize(function(){
+ if($(window).width()<320){
+  $('.ih-item').removeClass('top_to_bottom');
+ }
+});
+

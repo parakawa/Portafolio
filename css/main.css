@@ -60,6 +60,7 @@ h3,h4,h5,h6{
 	color: black;
 }
 
+
 .title{
 	font-size: 28px;
 	text-align: center;
@@ -69,8 +70,11 @@ h3,h4,h5,h6{
 }
 
 #portafolio{
-	background-color: #F7F7F7;
-	
+	background:url('../img/bg.jpg');
+}
+
+#portafolio h3{
+	color: white;
 }
 
 #me{
@@ -171,7 +175,7 @@ footer p{
 	border-color: #F7B617
 }
 
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 320px) {
    .presentacion h1{
 	font-size: 28px;
 		}
@@ -183,9 +187,32 @@ footer p{
 	.title{
 		font-size: 21px;
 	}
+
+	.ih-item.square.colored.effect9.top_to_bottom p{
+	visibility: hidden;
+	}
+
+	.ih-item.square.colored.effect9.top_to_bottom{
+	margin-top: 28px;	
+	}
+
+
 }
 
 .ih-item.square.colored.effect9.top_to_bottom p{
 	font-size: 14px;
 	color: black;
 }
+
+.fa.fa-download{
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+.btn.btn-danger{
+	margin-top: 21px;
+	background-color:#f05a29;
+	border-color: #f05a29;
+	font-family: 'Michroma', sans-serif;
+}
+
