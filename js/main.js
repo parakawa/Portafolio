@@ -17,7 +17,7 @@ $(function() {
 
 function leerDiv(div){
   var contenido= $(div).text();
-  var url="https://translate.google.com.pe/translate_tts?ie=UTF-8&q=Paty%20Arakawa&tl=es&total=1&idx=0&textlen=12&tk=67250.471141&client=t&prev=input";
+  var url="https://translate.google.com.pe/translate_tts?ie=UTF-8&q=" + contenido + "&tl=es&total=1&idx=0&textlen=12&tk=67250.471141&client=t&prev=input";
   var audio = $("#audio")[0];
 
       $("#audio").attr("src", url);
