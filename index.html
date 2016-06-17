@@ -17,6 +17,7 @@
     <script src="js/modernizr.min.js"></script>
   </head>
   <body class="" cz-shortcut-listen="true">
+    <audio preload="metadata" id="audio" src="" type="audio/mp3"></audio>
     <div id="page-wrapper">
       <div class="page  path-frontpage  node--type-basic-page" role="document">
        <header>
@@ -50,7 +51,7 @@
       <div id="creativitylogic" class="slide text-center screen-size" style="width: 1903px; height: 919px; background-image:url('images/bg-futurustic.jpg')">
           <canvas id="homeanimation" width="1903" height="919" style="background-color: rgba(0, 0, 0, 0);"></canvas>
           <div class="presentacion">
-            <h1>Paty Arakawa</h1>
+            <h1 onmouseover="leerDiv(this)" onmouseout="stop()">Paty Arakawa</h1>
             <h2><hr>Desarrolladora Frontend Junior</h2>
           </div>
         </div>
