@@ -37,5 +37,8 @@ function stop(){
     audio.pause();
 }
 
+function alert1(){
+  alert("holi");
+}
 
 
