@@ -15,6 +15,12 @@ $(function() {
 });
 
 
+$(window).resize(function(){
+ if($(window).width()<320){
+  $('.ih-item').removeClass('top_to_bottom');
+ }
+});
+
 function leerDiv(div){
   var contenido= $(div).text();
   var url="https://translate.google.com.pe/translate_tts?ie=UTF-8&q=" + contenido + "&tl=es&total=1&idx=0&textlen=12&tk=67250.471141&client=t&prev=input";
@@ -30,3 +36,6 @@ function stop(){
   var audio = $("#audio")[0];
     audio.pause();
 }
+
+
+
