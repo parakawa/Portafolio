@@ -21,13 +21,6 @@ $(window).resize(function(){
  }
 });
 
-$(window).size(function(){
- if($(window).width()<1200){
- $(".info-back").children("p").hide()
- }
-});
-
-
 
 function leerDiv(div){
   var url;
