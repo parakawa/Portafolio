@@ -21,6 +21,14 @@ $(window).resize(function(){
  }
 });
 
+$(window).size(function(){
+ if($(window).width()<1200){
+ $(".info-back").children("p").hide()
+ }
+});
+
+
+
 function leerDiv(div){
   var url;
   var id=$(div).attr('id');
@@ -109,11 +117,13 @@ function stop(){
 }
 
 function invidentes(){
+    alert("Activar audio. Pasa el mouse por los textos para escuchar");
     var audio = $("#audio")[0];
     var url="audios/bienvenido.mp3"
       $("#audio").attr("src", url);
 
       audio.play();
+
   $("#paty").attr("onmouseover", "leerDiv(this)");
   $("#paty").attr("onmouseout", "stop()");
   $("#desarrolladora").attr("onmouseover", "leerDiv(this)");
