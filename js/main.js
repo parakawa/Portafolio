@@ -21,6 +21,14 @@ $(window).resize(function(){
  }
 });
 
+$(window).size(function(){
+ if($(window).width()<1200){
+ $(".info-back").children("p").hide()
+ }
+});
+
+
+
 function leerDiv(div){
   var url;
   var id=$(div).attr('id');
@@ -112,11 +120,13 @@ function stop(){
 }
 
 function invidentes(){
+    alert("Activar audio. Pasa el mouse por los textos para escuchar");
     var audio = $("#audio")[0];
     var url="https://translate.google.com.pe/translate_tts?ie=UTF-8&q=Bienvenido%20a%20mi%20portafolio!%20Est%C3%A1s%20en%20la%20versi%C3%B3n%20web%20para%20invidentes%2C%20al%20pasar%20el%20mouse%20por%20los%20textos%20escuchar%C3%A1s%20el%20contenido%20de%20los%20mismos.&tl=es&total=1&idx=0&textlen=140&tk=100891.507132&client=t&prev=input"
       $("#audio").attr("src", url);
 
       audio.play();
+
   $("#paty").attr("onmouseover", "leerDiv(this)");
   $("#paty").attr("onmouseout", "stop()");
   $("#desarrolladora").attr("onmouseover", "leerDiv(this)");
